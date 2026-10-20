@@ -6,7 +6,7 @@ from web_calculator.calculator import Calculator
 
 app = Flask(__name__)
 
-# 历史记录（内存存储，最多保留 20 条）
+# 历史记录（内存存储，最多保留 20 条）  
 history: list[dict] = []
 MAX_HISTORY = 20
 calculator = Calculator()
@@ -16,6 +16,9 @@ calculator = Calculator()
 def index():
     """渲染计算器主页。"""
     return render_template("index.html")
+
+# JSON 响应美化输出，便于调试查看
+app.config["JSONIFY_PRETTYPRINT_REGULAR"] = True
 
 
 @app.route("/api/calculate", methods=["POST"])
