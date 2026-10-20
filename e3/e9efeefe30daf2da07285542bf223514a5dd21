@@ -1,0 +1,31 @@
+web_calculator/calculator.py
+  s_19f75148e73111::t_e99429961baefe 14,53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "e3e9efeefe30daf2da07285542bf223514a5dd21",
+  "prompts": {},
+  "sessions": {
+    "s_19f75148e73111": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ad75818897ecd8c994be174",
+        "model": "Doubao-Seed-2.1-pro__dev"
+      },
+      "human_author": "tdtest0538 <29056597@qq.com>",
+      "custom_attributes": {
+        "external_session_id": "6ad75818897ecd8c994be174",
+        "tool_name": "Shell",
+        "display_model_name": "Doubao-Seed-2.1-Pro-0915",
+        "edit_kind": "bash",
+        "source_scene": "agent",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6ad7973f897ecd8c994be47a",
+        "session_id": "6ad75818897ecd8c994be174",
+        "tool_use_id": "6ad7973f897ecd8c994be47a"
+      }
+    }
+  }
+}
