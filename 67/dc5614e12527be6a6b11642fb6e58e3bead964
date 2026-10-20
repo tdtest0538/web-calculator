@@ -1,0 +1,38 @@
+web_calculator/app.py
+  h_b23a6a8439c0dd 21
+  s_19f75148e73111::t_ffa8ae8255a02f 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "67dc5614e12527be6a6b11642fb6e58e3bead964",
+  "prompts": {},
+  "humans": {
+    "h_b23a6a8439c0dd": {
+      "author": "unknown"
+    }
+  },
+  "sessions": {
+    "s_19f75148e73111": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ad75818897ecd8c994be174",
+        "model": "Doubao-Seed-2.1-pro__dev"
+      },
+      "human_author": "tdtest0538 <29056597@qq.com>",
+      "custom_attributes": {
+        "tool_id": "Edit",
+        "operation_id": "6ad75ab7897ecd8c994be21c",
+        "dedupe_key": "6ad75818897ecd8c994be174:6ad75ab7897ecd8c994be21c:afterEdit:ff316b1d",
+        "tool_type": "agent",
+        "tool_use_id": "6ad75ab7897ecd8c994be21c",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "session_id": "6ad75818897ecd8c994be174",
+        "external_session_id": "6ad75818897ecd8c994be174",
+        "source_scene": "unknown"
+      }
+    }
+  }
+}
