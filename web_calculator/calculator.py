@@ -11,7 +11,7 @@ import operator
 class Calculator:
     """安全表达式计算器"""
 
-    # 允许的二元运算符
+    # 如下这段代码定义了允许的二元运算符和对应的操作函数
     _BINOPS = {
         ast.Add: operator.add,
         ast.Sub: operator.sub,
@@ -50,7 +50,7 @@ class Calculator:
             node: AST 节点
 
         Returns:
-            节点计算结果
+            节点计算结果，neg 表示是否为负数
         """
         if isinstance(node, ast.Constant):
             if isinstance(node.value, (int, float)):
